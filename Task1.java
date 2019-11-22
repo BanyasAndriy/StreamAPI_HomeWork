@@ -8,9 +8,9 @@ public class Task1 {
 	public static void main(String[] args) {
 		
 		
-		List<String> students = new ArrayList<>(Arrays.asList("Стеценко Ярослав","Баняс Андрій","Чернієнко Ярослав","Бачинський Євген"));
+		List<String> students = new ArrayList<>(Arrays.asList("РЎС‚РµС†РµРЅРєРѕ РЇСЂРѕСЃР»Р°РІ","Р‘Р°РЅСЏСЃ РђРЅРґСЂС–Р№","Р§РµСЂРЅС–С”РЅРєРѕ РЇСЂРѕСЃР»Р°РІ","Р‘Р°С‡РёРЅСЃСЊРєРёР№ Р„РІРіРµРЅС–Р№"));
 		
-		List<String> filteredStudents = new Task1().searchStudentsFirstCharacter(students,'Б');
+		List<String> filteredStudents = new Task1().searchStudentsFirstCharacter(students,'РЎ');
 	
 		System.out.println(filteredStudents);
 	
