@@ -7,7 +7,7 @@ import java.nio.file.Path;
 import java.util.*;
 import java.util.stream.Collectors;
 
-/*Ќайдите максимальное число из набора чисел которые хран€тс€ в текстовом файле.*/
+
 public class Task4 {
 
 	public static void main(String[] args) throws IOException {
